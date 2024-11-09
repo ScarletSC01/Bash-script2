@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Crear el array de películas favoritas
+peliculas=("Matrix" "El Padrino" "Inception" "Toy Story" "El Señor de los Anillos")
+
+# Imprimir cada película en una nueva línea
+for pelicula in "${peliculas[@]}"; do
+    echo "$pelicula"
+done
+
+# Agregar una nueva película al array
+peliculas+=("Pulp Fiction")
+
+# Imprimir el array completo 
+echo "Películas actualizadas:"
+for pelicula in "${peliculas[@]}"; do
+    echo "$pelicula"
+done

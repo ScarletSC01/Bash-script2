@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Array de películas del Ejercicio 2
+peliculas=("Matrix" "Interestelar" "Inception" "Carrie" "El Señor de los Anillos" "Las Cronicas de Narnia")
+
+# Recorrer el array e imprimir cada película junto con su índice
+for i in "${!peliculas[@]}"; do
+    echo "$i: ${peliculas[$i]}"
+done

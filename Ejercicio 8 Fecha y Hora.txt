@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Imprimir la fecha y hora actuales
+echo "Fecha y hora actuales: $(date)"
+
+# Calcular e imprimir la fecha dentro de 7 días
+echo "Fecha dentro de 7 días: $(date -d "+7 days")"

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Definición de la función saludo
+saludo() {
+    echo "¡Hola, $1!"
+}
+
+# Llamadas a la función saludo
+saludo "Scarlet"
+saludo "Silva"
+saludo "Cisternas"

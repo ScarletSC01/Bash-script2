@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Ordenar y eliminar duplicados en names.txt, guardar en sorted_names.txt
+sort names.txt | uniq > sorted_names.txt

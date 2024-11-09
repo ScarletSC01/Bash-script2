@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Extraer solo nombres y grados de students.txt
+awk '{print $1, $3}' students.txt

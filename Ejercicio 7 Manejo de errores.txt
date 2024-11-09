@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Verificar si el archivo existe
+filename="$1"
+if [ -f "$filename" ]; then
+    cat "$filename"
+else
+    echo "Error: Archivo no encontrado"
+fi

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Solicitar dos números al usuario
+read -p "Ingrese el primer número: " num1
+read -p "Ingrese el segundo número: " num2
+
+# Comprobación de divisibilidad y control de división por cero
+if [ "$num2" -eq 0 ]; then
+    echo "No se permite una division por cero"
+else
+    if (( num1 % num2 == 0 )); then
+        echo "Divisible"
+    else
+        echo "No divisible"
+    fi
+fi

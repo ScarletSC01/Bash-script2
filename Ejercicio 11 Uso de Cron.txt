@@ -1,0 +1,10 @@
+*Primero se crea un script log_datetime.sh:
+
+#!/bin/bash
+echo "$(date)" >> logfile.txt
+
+
+*Configuramos el cron para que se ejecute cada minuto:
+
+
+* * * * * /ruta/a/log_datetime.sh
